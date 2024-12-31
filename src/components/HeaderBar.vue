@@ -11,8 +11,8 @@ import LogoItem from './layouts/LogoItem.vue';
 			<div class="flex justify-between text-sm">
 				<div class="text-center">
 					<div class="">Bybit</div>
-					<RouterLink :to="{ name: 'HomePage' }" v-slot="{ isActive }">
-						<span :class="[isActive ? 'text-blue-500 font-bold' : 'text-gray-500']"> Home |</span>
+					<RouterLink :to="{ name: 'ChartPage' }" v-slot="{ isActive }">
+						<span :class="[isActive ? 'text-blue-500 font-bold' : 'text-gray-500']"> Chart |</span>
 					</RouterLink>
 					<RouterLink :to="{ name: 'TestPage' }" v-slot="{ isActive }">
 						<span :class="[isActive ? 'text-blue-500 font-bold' : 'text-gray-500']"> Test</span>

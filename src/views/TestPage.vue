@@ -1,10 +1,10 @@
 <script setup>
-
+import ChartGrid from '../components/ChartGrid.vue';
 </script>
 
 <template>
   <div>
-    Test Page
+    <ChartGrid />
   </div>
 </template>
 <style scoped></style>
